@@ -5,6 +5,8 @@ body {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
    }
+
+/* Header e container */
    
 header {
     position: relative;
@@ -13,8 +15,6 @@ header {
 .container {
     margin: 0 auto;
     width: 940px;
-    padding-top: 10px;
-    
    }
 
 
@@ -27,7 +27,7 @@ header {
     text-align: right;
     width: 140px;
     padding-right: 35px;
-    padding-top: 10px;    
+    padding-top: 8px;    
     position: absolute;
     top: 0;
     right: 0;
@@ -106,13 +106,14 @@ header {
 }
 
 .menu-departamentos li {
- background-color: white;
- margin-bottom: 1px;
- padding: 5px 10px;
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
 }
+
 .menu-departamentos a {
- color: #333333;
- text-decoration: none;
+    color: #333333;
+    text-decoration: none;
 }
 
 /* Destaque */
@@ -183,6 +184,8 @@ header {
    .novidades {
     float: left;
     background-color: #9b7676;
+    /* cor antiga -> #f5dcdc */
+
    }
    .mais-vendidos {
     float: right;
@@ -197,9 +200,9 @@ footer {
     height: 60px;
    }
 
-   footer .container {
+footer .container {
     position: relative;
-   }
+}
 
 
 .social {
