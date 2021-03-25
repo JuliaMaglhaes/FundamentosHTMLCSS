@@ -71,7 +71,7 @@ header {
     height: 20px;
     text-indent: -9999px;
     cursor: pointer;
-    /* outline: none; */
+    outline: none;
     background-color: transparent;
     }
     
@@ -95,8 +95,9 @@ header {
 .busca input[type=search] {
     width: 170px;
     border-radius: 5px;
-    outline: none;
+    /* outline: none; */
    }
+
 
 .menu-departamentos {
     clear: left;
