@@ -95,15 +95,17 @@ header {
 .busca input[type=search] {
     width: 170px;
     border-radius: 5px;
-    /* outline: none; */
-   }
+    outline: none; 
+}
 
+.busca input:focus-within{
+    border: 2px solid #c21616;
+}
 
 .menu-departamentos {
     clear: left;
     margin-top: 10px;
     padding-bottom: 10px;
-   
 }
 
 .menu-departamentos li {
